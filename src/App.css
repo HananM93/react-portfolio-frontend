@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.project {
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 38%;
+}
+
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+
+body {
+  background-color: #28B27F;
+}
+
+h1, h2, h3, p {
+  color: white;
+}
+
+
+.btn:hover{
+  background-color: #1A875F;
+}
+
+.btn {
+  float: center;
+  border: 0;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transform: 0.5s;
+  
+}
+
+a:link, .nav { 
+  text-decoration: none;
+}
+
+.social-container {
+
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+
+
+a.linkedin {
+  color: #4968ad;
+}
+
+a.github {
+  color: black;
+}
+
+a.instagram {
+  color: purple;
+}
