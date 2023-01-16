@@ -24,12 +24,12 @@ function Projects(props) {
       <div className="project">
         <h1>{project.name}</h1>
         <img src={project.image} alt='' className='img'/>
-        <a href={project.git}>
+        <a href={project.git} target="_blank">
           <button className="btn">Github</button>
         </a>
-        <a href={project.live}>
+        <a href={project.live} target="_blank">
           <button className="btn">live site</button>
-        </a>
+        </a> 
       </div>
     ));
   };

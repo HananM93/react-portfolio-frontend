@@ -12,14 +12,14 @@ export default function SocialFollow() {
       <h3>Social Follow</h3>
     
       <a href="https://www.linkedin.com/in/hanan-mohamed-73276417a/"
-        className="linkedin social">
+        className="linkedin social" target="_blank">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
-      <a href="https://github.com/HananM93" className="github social">
+      <a href="https://github.com/HananM93" className="github social" target="_blank">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
       <a href="https://www.instagram.com/_dreamofnadia/"
-        className="instagram social">
+        className="instagram social" target="_blank">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
     </div>
