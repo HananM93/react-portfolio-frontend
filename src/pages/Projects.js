@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Projects(props) {
   // create state to hold projects
   const [projects, setProjects] = useState(null);
@@ -24,17 +24,17 @@ function Projects(props) {
       <div className="project">
         <h1>{project.name}</h1>
         <img src={project.image} alt='' className='img'/>
-        <a href={project.git} target="_blank">
+        <a href={project.git} target="_blank" rel="noreferrer">
           <button className="btn">Github</button>
         </a>
-        <a href={project.live} target="_blank">
+        <a href={project.live} target="_blank" rel="noreferrer">
           <button className="btn">live site</button>
         </a> 
       </div>
     ));
   };
 
-  return projects ? loaded() : <h1>Loading...</h1>;
+  return projects ? loaded() : <i class="fa fa-spinner fa-spin" style={{ fontSize:"24px"}}></i> 
 }
 
 export default Projects;

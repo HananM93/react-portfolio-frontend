@@ -24,13 +24,13 @@ function About(props) {
     <div className="about">
       <h2>{about.name}</h2>
       <h3>{about.email}</h3>
-      <img src={about.headshot} className='img1'/>
+      <img src={about.headshot} className='img1' alt='profile-pic'/>
       <p>{about.bio}</p>
     </div>
   );
 
   // if data arrives return the result of loaded, if not, an h1 that says loading
-  return about ? loaded() : <h1>Loading...</h1>;
+  return about ? loaded() : <i class="fa fa-spinner fa-spin" style={{ fontSize:"24px"}}></i> 
 }
 
 export default About;
